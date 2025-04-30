@@ -1,0 +1,2 @@
+1. The values of num1 and num2 were strings instead of numbers because .value from an input field always returns a string. When added with +, they were concatenated, resulting in "12" instead of 3.
+2. To fix it, convert the input strings to numbers before adding them.
